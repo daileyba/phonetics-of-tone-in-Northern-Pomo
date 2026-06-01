@@ -1,4 +1,4 @@
-# Phonetics of Tone in Northern Pomo
+# Investigating the Phonetics of Tone in Northern Pomo
 
 Scripts and data accompanying the LSA 2026 presentation on F0 dynamics and tonal coarticulation in Northern Pomo.
 
@@ -13,10 +13,14 @@ Scripts and data accompanying the LSA 2026 presentation on F0 dynamics and tonal
 ## Data
 
 **Audio**: Source recordings are available through the [Califormia Language Archive](https://cla.berkeley.edu/) at UC Berkeley (California Language Archive).
+- Bear Woman and the death of Deer Woman, LA 25.009, in "The Eero Vihman collection of Northern Pomo sound recordings", California Language Archive, Survey of California and Other Indian Languages, University of California, Berkeley, http://cla.berkeley.edu/item/15129.
+* Narrative on Food Gathering For Winter in [Narrative and Dialogue], LA 25.050, in "The Eero Vihman collection of Northern Pomo sound recordings", California Language Archive, Survey of California and Other Indian Languages, University of California, Berkeley, http://cla.berkeley.edu/item/25159.
++ Why Dove Cries. Told by Edna Campbell Guerrero and recorded by Catherine O'COnnor on January 30th, 1982. (Not yet available through the California Language Archive.)
+
 
 **TextGrid annotations**: Available on request.
 
-**Extracted dataset** (`data/timeseries.csv`): Segment-level F0 measurements with tone labels, positional features, and phonological context (preceding/following tone, laryngeal class, vowel height/frontness). This is the direct input to the R modeling script.
+**Extracted dataset** (`data/timeseries_np_tone_LSA_2026.csv`): Segment-level F0 measurements with tone labels, positional features, and phonological context (preceding/following tone, laryngeal class, vowel height/frontness). This is the direct input to the R modeling script.
 
 ## Dependencies
 
@@ -38,7 +42,7 @@ install.packages(c("mgcv", "tidyverse", "dplyr", "gridExtra"))
 
 ## Citation
 
-Dailey, Brady A. (2026). *[Title]*. Presented at the Annual Meeting of the Linguistic Society of America.
+Dailey, B. A., & O'Connor C. (2026). *Investigating the phonetics of tone in Northern Pomo using archival materials*. Presented at the Annual Meeting of the Linguistic Society of America, New Orleans, LA.
 
 If you use the data or scripts, please also cite the California Language Archive as the source of the original recordings.
 

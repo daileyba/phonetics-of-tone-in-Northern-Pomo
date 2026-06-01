@@ -8,7 +8,7 @@ Scripts and data accompanying the LSA 2026 presentation on F0 dynamics and tonal
 |---|---|
 | `scripts/data_extraction_and_preprocessing.py` | Extracts F0 measurements from `.wav` + `.TextGrid` files using Parselmouth (Python/Praat). Outputs a segment-level CSV with ~60 contextual features per observation. |
 | `scripts/data_visualization_and_analysis.R` | Fits Generalized Additive Models (GAMs) to the F0 time series and produces visualizations of tonal contours and contextual effects. |
-| `data/timeseries.csv` | The extracted dataset used in the analysis. |
+| `data/timeseries_np_tone_LSA_2026.csv` | The extracted dataset used in the analysis. |
 
 ## Data
 

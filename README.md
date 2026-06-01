@@ -12,7 +12,7 @@ Scripts and data accompanying the LSA 2026 presentation on F0 dynamics and tonal
 
 ## Data
 
-**Audio**: Source recordings are available through the [Survey of California and Other Indian Languages](https://cla.berkeley.edu/) at UC Berkeley (California Language Archive).
+**Audio**: Source recordings are available through the [Califormia Language Archive](https://cla.berkeley.edu/) at UC Berkeley (California Language Archive).
 
 **TextGrid annotations**: Available on request.
 
@@ -21,6 +21,12 @@ Scripts and data accompanying the LSA 2026 presentation on F0 dynamics and tonal
 ## Dependencies
 
 **Python** (data extraction):
+The pipeline uses Praat's filtered autocorrelationpitch tracker |`To Pitch (filtered ac)`|, which requires installing Parselmouth from source. The PyPI release does ot include this method:
+```
+pip install git+https://github.com/YannickJadoul/Parselmouth.git \
+  --config-settings="--build-option=--cmake-executable=/usr/bin/cmake"
+```
+Then install the remaining dependencies:
 ```
 pip install -r requirements.txt
 ```

@@ -12,7 +12,7 @@ Scripts and data accompanying the LSA 2026 presentation on F0 dynamics and tonal
 
 ## Data
 
-**Audio**: Source recordings are available through the [Califormia Language Archive](https://cla.berkeley.edu/) at UC Berkeley (California Language Archive).
+**Audio**: Source recordings are available through the [Califormia Language Archive](https://cla.berkeley.edu/) at UC Berkeley.
 - Bear Woman and the death of Deer Woman, LA 25.009, in "The Eero Vihman collection of Northern Pomo sound recordings", California Language Archive, Survey of California and Other Indian Languages, University of California, Berkeley, http://cla.berkeley.edu/item/15129.
 * Narrative on Food Gathering For Winter in [Narrative and Dialogue], LA 25.050, in "The Eero Vihman collection of Northern Pomo sound recordings", California Language Archive, Survey of California and Other Indian Languages, University of California, Berkeley, http://cla.berkeley.edu/item/25159.
 + Why Dove Cries. Told by Edna Campbell Guerrero and recorded by Catherine O'COnnor on January 30th, 1982. (Not yet available through the California Language Archive.)
